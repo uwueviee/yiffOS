@@ -1,2 +1,3 @@
 # yiffOS
-Arch Linux dotfiles for yiffOS (/shrug)
+A really shitty Arch Linux "Distro"  
+
