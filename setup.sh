@@ -11,4 +11,10 @@ HOME_URL="https://github.com/PretzelCA/yiffOS"
 SUPPORT_URL="https://github.com/PretzelCA/yiffOS/issues"
 BUG_REPORT_URL="https://github.com/PretzelCA/yiffOS/issues"
 EOT
+echo "[yiffOS] Installing yay"
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+cd ..
+echo "[yiffOS] Done! (For now)"
 exit
